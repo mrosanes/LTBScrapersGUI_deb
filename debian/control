@@ -8,7 +8,7 @@ Homepage: https://git.cells.es/controls/LTBScrapersGUI
 
 Package: ltbscrapersgui
 Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}
+Depends: ${misc:Depends}, ${python:Depends}, python-taurus, python-sardana
 Description: Diagnostics Scrapers GUI
  Diagnostics Scrapers Graphic User Interface
 
