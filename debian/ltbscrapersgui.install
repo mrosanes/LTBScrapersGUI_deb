@@ -1,0 +1,2 @@
+#!/usr/bin/dh-exec
+debian/ltbscrapersgui/usr/bin/ctdiscrapers => /usr/share/ltbscrapersgui/ctdiscrapers_
