@@ -1,0 +1,16 @@
+MANIFEST.in
+setup.py
+LTBScrapersGUI/__init__.py
+LTBScrapersGUI/ctdiscrapers.py
+LTBScrapersGUI/scrapercontroller.py
+LTBScrapersGUI/scrapers.qrc
+LTBScrapersGUI/scrapers_rc.py
+LTBScrapersGUI.egg-info/PKG-INFO
+LTBScrapersGUI.egg-info/SOURCES.txt
+LTBScrapersGUI.egg-info/dependency_links.txt
+LTBScrapersGUI.egg-info/entry_points.txt
+LTBScrapersGUI.egg-info/top_level.txt
+LTBScrapersGUI/icons/ALBA_Logo.png
+LTBScrapersGUI/ui/SCRH.ui
+LTBScrapersGUI/ui/SCRV.ui
+LTBScrapersGUI/ui/scrapersform.ui

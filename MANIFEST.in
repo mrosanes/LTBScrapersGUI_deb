@@ -1,0 +1,3 @@
+include LTBScrapersGUI/ui/*.ui
+include LTBScrapersGUI/*.qrc
+include LTBScrapersGUI/icons/*.png
