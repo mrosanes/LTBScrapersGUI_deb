@@ -6,3 +6,9 @@ export PYBUILD_INSTALL_ARGS=--install-lib=/usr/share/ltbscrapersgui --no-compile
 %:
 	dh $@ --with python2 --buildsystem=pybuild
 
+
+override_dh_fixperms:
+	chmod 0644 debian/ltbscrapersgui/usr/share/ltbscrapersgui/LTBScrapersGUI-*.egg-info/dependency_links.txt
+	chmod 0644 debian/ltbscrapersgui/usr/share/ltbscrapersgui/LTBScrapersGUI-*.egg-info/PKG-INFO
+	chmod 0644 debian/ltbscrapersgui/usr/share/ltbscrapersgui/LTBScrapersGUI-*.egg-info/top_level.txt
+	dh_fixperms
